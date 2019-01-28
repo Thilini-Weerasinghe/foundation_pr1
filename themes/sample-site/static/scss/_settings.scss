@@ -74,8 +74,8 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
     primary: #0071bb,
-    secondary: #e6822b,
-    success: white,
+    secondary: #949ba2,
+    success: #e6822b,
     warning: #ffae00,
     alert: #cc4b37,
 );
@@ -96,7 +96,7 @@ $peo-white: #ffffff;
 $venues-place-font: #575757;
 $body-background: $peo-white;
 $body-font-color: #676767;
-$body-font-family: 'Roboto', sans-serif;;
+$body-font-family: 'Arial-reguler';
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -144,11 +144,11 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: 'Arial-bold';
 $header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
-$header-color: #1F1F1F;
+$header-color: white;
 $header-lineheight: 1.15;
 $header-margin-bottom: rem-calc(20);
 $header-styles: (
@@ -173,7 +173,7 @@ $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.6;
-$paragraph-margin-bottom: 1rem;
+$paragraph-margin-bottom: 0;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
@@ -871,6 +871,7 @@ $topbar-unstack-breakpoint: medium;
 // -----------
 
 $xy-grid: true;
+//$grid-container: 85%;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (

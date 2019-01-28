@@ -1,44 +1,23 @@
 <footer class="footer">
     <div class="grid-container">
-        <div class="grid-x align-justify align-center wrapper row">
-
-                    <div class="columns large-6 medium-6 small-6">
-
-
-                            <a href="#">Home</a>
-                            <a href="#">My Account</a>
-                            <a href="#">Terms and Conditions</a>
-
-
-                        <%--<div class="row align-left">--%>
-                            <%--<div class="columns small-6 medium-3 large-3">--%>
-                                <%--<img src="{$ThemeDir}/static/images/cms/fb.jpeg">--%>
-                            <%--</div>--%>
-
-                            <%--<div class="columns small-6 medium-3 large-3">--%>
-                                <%--<img src="{$ThemeDir}/static/images/cms/twet.jpeg">--%>
-                            <%--</div>--%>
-
-                            <%--<div class="columns small-6 medium-3 large-3">--%>
-                                <%--<img src="{$ThemeDir}/static/images/cms/cmr.jpeg">--%>
-                            <%--</div>--%>
-
-                            <%--<div class="columns small-6 medium-3 large-3">--%>
-                                <%--<img src="{$ThemeDir}/static/images/cms/lnk.jpeg">--%>
-                            <%--</div>--%>
-                        <%--</div>--%>
-                        <div class=" footer__logo">
-                            <img src="{$ThemeDir}/static/images/cms/fb.jpeg">
-                            <img src="{$ThemeDir}/static/images/cms/twet.jpeg">
-                            <img src="{$ThemeDir}/static/images/cms/cmr.jpeg">
-                            <img src="{$ThemeDir}/static/images/cms/lnk.jpeg">
-                        </div>
-                    </div>
-                    <div class="columns large-6 medium-6 small-6">
-                        <p> © 2017 Soentso Entertainment     Website by Impulse Digital</p>
-                    </div>
-
+        <div class="grid-x align-justify align-center wrapper ">
+            <div class="cell small-6 medium-6 large-6  ">
+                <ul class="footer__link">
+                    <li>  <a href="#"><u>Home</u></a> </li>
+                    <li> <a href="#"><u>My Account</u></a> </li>
+                    <li> <a href="#"><u>Terms and Conditions</u></a></li>
+                </ul>
+                <div class=" footer__logo">
+                   <a href="https://silverstripers.slack.com/messages/C08C5T70V/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://silverstripers.slack.com/messages/C08C5T70V/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://silverstripers.slack.com/messages/C08C5T70V/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://silverstripers.slack.com/messages/C08C5T70V/"> <i class="fab fa-linkedin"> </i></a>
+                </div>
+            </div>
+            <div class="columns large-6 medium-6 small-6">
+                <p> ©2017 Soentso Entertainment </p>
+                <p>Website by <a href="#"> <u>Impulse Digital</u></a> </p>
+            </div>
         </div>
-
     </div>
 </footer>

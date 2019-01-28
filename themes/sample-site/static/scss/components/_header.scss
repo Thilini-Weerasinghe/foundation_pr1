@@ -90,32 +90,28 @@
 ////  background-color: darkred;
 ////}
 
-
 .header {
+  font-size: 10px;
   padding: 15px 0;
-
   &__button {
     width: 100px;
     max-width: 100%;
     margin-bottom: 0;
   }
-
   &__logo {
-
     img {
       width: 120px;
       max-width: 100%;
     }
   }
 
+  //break points
   @include breakpoint(medium) {
-
     &__button {
       width: 130px;
+
     }
-
     &__logo {
-
       img {
         width: 200px;
       }
