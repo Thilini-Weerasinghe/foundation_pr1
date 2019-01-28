@@ -1,0 +1,30 @@
+.footer{
+  font-size: 5px;
+  text-align: center;
+  padding-top: 15px;
+
+  &__logo{
+    img{
+      width :40px;
+      max-width: 100%;
+      //padding-top: 10px;
+      //padding-right: 2px;
+      //padding-left: 5px;
+    }
+  }
+}
+
+@include breakpoint(medium){
+  .footer{
+    font-size:10px;
+
+    &__logo{
+      img{
+        //padding-right: 10px;
+        //padding-left:10px;
+        width: 60px;
+        max-width: 100%;
+      }
+    }
+  }
+}
