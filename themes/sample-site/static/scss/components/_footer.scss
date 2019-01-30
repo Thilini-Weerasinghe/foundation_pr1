@@ -28,6 +28,10 @@
 
 @include breakpoint(medium) {
   .footer {
+    .grid-container{
+      padding-left:0;
+      padding-right:0;
+    }
     font-size: 15px;
     p {
       text-align: right;

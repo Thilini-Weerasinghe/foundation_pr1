@@ -5,21 +5,24 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  a{
-    color: $white;
-  }
+
 
   .terms-link {
     color:white;
   }
 
-  h5{
+  .p1{
+    font-size: 20px;
     text-align: center;
   }
 
   p {
     color: $white;
     font-size: 8px;
+    a{
+      font-size: 10px;
+      color: $white;
+    }
   }
 
   &__btn2 {
@@ -27,7 +30,7 @@
     width: 100%;
     border-radius: 5px;
     align-items: right;
-    font-size: 10px;
+    font-size: 12px;
 
 
   }
@@ -35,7 +38,9 @@
     background-color: transparent;
     width: 95%;
     text-align: center;
-    font-size: 11px;
+    font-size: 13px;
+
+    //margin-right:100px;
   }
 }
 
@@ -109,24 +114,36 @@
   //mid bar scss
   .mid-bar {
 
+
     align-items: center;
     padding-top: 30px;
     padding-bottom:30px;
 
-    h5{
-      text-align: center;
+    .p1{
+
+
+      text-align: left;
     }
 
     p {
       font-size: 12px;
+     a{
+       font-size: 15px;
+     }
     }
 
     &__btn2 {
+
       font-size: 15px;
+      padding-top:15px;
+      padding-bottom:15px;
     }
 
     .text-box {
-
+      text-align: left;
+      padding-top:25px;
+      padding-bottom:25px;
+      padding-left:20px;
       font-size: 14px;
       width:90%;
     }
@@ -190,50 +207,75 @@ img{
   }
 }
 
+///////////////////////////////////////////////////////////
 @include breakpoint(large){
 .mid-bar{
- .text-box{
-    font-size: 16px;
+  .grid-container{
+    padding-left:0;
+    padding-right:0;
   }
+  .p1{
+    //letter-spacing: -0.02em;
+    font-size: 25px;
+  }
+ .text-box{
+      font-size: 18px;
+    }
 
   &__btn2{
     font-size:18px;
   }
 }
   .about-block {
-    font-size: 15px;
-    padding-bottom:65px;
+    font-size: 18px;
+    padding-bottom:45px;
     padding-left: 225px;
     padding-right: 225px;
 
     h2{
-      padding-top:70px;
-      padding-bottom:20px;
+      padding-left:35px;
+      padding-top:80px;
+      padding-bottom:5px;
+    }
+    p {
+      //padding-bottom: 20px;
+      margin-left: 170px;
+      margin-right:170px;
+
     }
   }
 
-
+.computer-block{
+  .grid-container{
+    padding-left:0;
+    padding-right:0;
+  }
+  padding-bottom: 95px;
+}
   .end-block {
-    padding-top: 75px;
-    padding-bottom: 55px;
+    padding-top: 55px;
+    padding-bottom: 40px;
     font-size: 15px;
 
     &__btn {
-      width: 25%;
+      width: 40%;
       font-size: 18px;
+      padding-top:15px;
+      padding-bottom: 15px;
     }
 
     h2 {
-      padding-bottom: 40px;
-      padding-left: 215px;
-      padding-right: 215px;
+      padding-bottom: 0;
+      padding-left: 280px;
+      padding-right: 280px;
 
     }
 
     p {
-      padding-left: 215px;
-      padding-right: 215px;
-      padding-bottom: 40px;
+      font-size: 18px;
+      padding-left: 180px;
+      padding-right: 180px;
+      padding-bottom: 30px;
     }
   }
 }

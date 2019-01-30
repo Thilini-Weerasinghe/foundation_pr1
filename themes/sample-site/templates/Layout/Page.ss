@@ -5,12 +5,12 @@
     </div>
     <div class="grid-container">
         <div class="grid-x align-middle align-justify align-center hero__video-bar">
-            <div class="cell small-12 medium-6 large-6 ">
+            <div class="cell small-12 medium-6 large-5 ">
                 <div class="hero__text">
-                    <h2 class="h1">Welcome to Social Entertainment. </h2>
-                    <p>TV. Movies. Music. Social Media
-                    <h4>— All are free </h4>
-                    </p>
+                    <h1>Welcome to Social Entertainment. </h1>
+                    <p>TV. Movies. Music. Social Media</p>
+                    <p class="p1">— All for free </p>
+
                     <%--<br>--%>
                     <div class="hero__dropdown">
                         <select>
@@ -23,7 +23,7 @@
                 </div>
 
             </div>
-            <div class="cell small-12 medium-6 large-6 ">
+            <div class="cell small-12 medium-6 large-7">
                 <div class="hero__video">
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/Ej1hlQgwXcA" frameborder="0"
                             allowfullscreen></iframe>
@@ -37,7 +37,7 @@
     <div class="grid-container">
         <div class="grid-x align-center">
             <div class="cell small-12 medium-4 large-4">
-                <h5>Be first on the waiting list. </h5>
+                <p class="p1">Be first on the waiting list. </p>
             </div>
             <div class="cell small-7 medium-4 large-4 ">
                 <input type="text" class="text-box" placeholder="hello@impulsedigital.com.au">
@@ -55,7 +55,7 @@
     <div class="grid-container">
         <div class="grid-x grid-margin-x ">
             <div class="columns small-12 medium-12 large-12">
-                <h2>What is Soentso?</h2>
+                <h2 class="h1">What is Soentso?</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas in ligula a luctus.
                     In ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit.
@@ -106,7 +106,7 @@
 <div class="end-block">
     <div class="grid-container">
         <div class="end-block__text">
-            <h2>Get early access to free TV & Movies.</h2>
+            <h2 class="h1">Get early access to free TV & Movies.</h2>
             <p><b>Prize information here</b>: consectetur adipiscing elit. Pellentesque egestas in ligula a luctus.
                 In ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit.</p>
             <a href="#" class="button end-block__btn"><b>Sign me up</b></a>
