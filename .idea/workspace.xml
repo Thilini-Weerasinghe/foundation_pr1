@@ -4,7 +4,6 @@
     <list default="true" id="9a20c061-278d-4a63-aaa1-c1e55765c32e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/dist/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/images/cms/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss" afterDir="false" />
@@ -12,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/sourcemaps/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/sourcemaps/app.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Includes/CriticalCSS.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Includes/CriticalCSS.ss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Includes/Header.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Includes/Header.ss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,19 +27,20 @@
     <session id="714384424">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.43" value="3" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,7 +48,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="8" />
           <entry key="json" value="4" />
-          <entry key="scss" value="51" />
+          <entry key="scss" value="54" />
           <entry key="ss" value="27" />
           <entry key="yml" value="1" />
         </counts>
@@ -58,7 +58,7 @@
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="51" />
+          <entry key="SCSS" value="54" />
           <entry key="SilverStripe" value="27" />
           <entry key="YAML" value="1" />
         </counts>
@@ -67,16 +67,16 @@
         <counts>
           <entry key="js" value="19" />
           <entry key="json" value="6" />
-          <entry key="scss" value="6316" />
-          <entry key="ss" value="4199" />
+          <entry key="scss" value="6721" />
+          <entry key="ss" value="4439" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="19" />
-          <entry key="SCSS" value="6316" />
-          <entry key="SilverStripe" value="4199" />
+          <entry key="SCSS" value="6721" />
+          <entry key="SilverStripe" value="4439" />
         </counts>
       </usages-collector>
     </session>
@@ -89,17 +89,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
+            <state relative-caret-position="1830">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="217" column="6" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
+            <state relative-caret-position="3945">
+              <caret line="263" column="6" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2715">
+              <caret line="181" column="37" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -107,17 +125,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss">
+        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="1095">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -140,9 +167,12 @@
       <find>grid</find>
       <find>padding</find>
       <find>image</find>
-      <find>grid-container</find>
       <find>button-colo</find>
       <find>text</find>
+      <find>lineheight</find>
+      <find>paragraph</find>
+      <find>foot</find>
+      <find>grid-container</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -169,14 +199,14 @@
         <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/shared/_fonts.scss" />
         <option value="$PROJECT_DIR$/themes/sample-site/static/scss/app.scss" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss" />
         <option value="$PROJECT_DIR$/themes/sample-site/templates/Includes/Header.ss" />
         <option value="$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss" />
-        <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss" />
         <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss" />
+        <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss" />
         <option value="$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss" />
-        <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss" />
         <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss" />
+        <option value="$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss" />
+        <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss" />
       </list>
     </option>
   </component>
@@ -362,6 +392,16 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="sample-site" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -453,18 +493,20 @@
       <workItem from="1548732714638" duration="1050000" />
       <workItem from="1548737080845" duration="4588000" />
       <workItem from="1548818213247" duration="10911000" />
-      <workItem from="1548838698817" duration="6089000" />
+      <workItem from="1548838698817" duration="6383000" />
+      <workItem from="1548904178619" duration="12458000" />
+      <workItem from="1548934815480" duration="475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127667000" />
+    <option name="totallyTimeSpent" value="140894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="23" width="1807" height="992" extended-state="0" />
+    <frame x="73" y="23" width="1807" height="992" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.1898017" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" visible="true" weight="0.19376771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50222224" side_tool="true" weight="0.22470714" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -477,7 +519,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -627,27 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="181" column="37" lean-forward="true" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Includes/Header.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -664,29 +685,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="1830">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="217" column="6" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
+        <state relative-caret-position="3945">
+          <caret line="263" column="6" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="37" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>

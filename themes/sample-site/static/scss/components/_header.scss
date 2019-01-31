@@ -2,22 +2,24 @@
 .header {
 
 
-    font-size: 15px;
+  font-size: 10px;
   padding-top:10px;
-  padding-bottom:20px;
+  padding-bottom: 10px;
 
   &__text{
     text-align:right;
+    margin-bottom: 15px;
 
     a{
-      margin-right:42px;
+      margin-right:10px;
       font-size: 16px;
       color:$secondary-color;
     }
   }
 
  .hollow{
-   margin-left:20px;
+   margin-bottom: 15px;
+   margin-left:10px;
    font-size: 16px;
    color:$secondary-color;
  }
@@ -26,7 +28,6 @@
       width: 90px;
       max-width: 100%;
       margin-bottom: 0;
-      margin_left:10px;
       border-radius: 5px;
     }
 
@@ -42,10 +43,30 @@
 
     //break points
     @include breakpoint(medium) {
+      font-size: 15px;
       &__button {
         width: 130px;
 
       }
+
+      .hollow{
+        margin-bottom: 15px;
+        margin-left:20px;
+        font-size: 16px;
+        color:$secondary-color;
+      }
+      &__text{
+        text-align:right;
+        margin-bottom: 15px;
+
+        a{
+          margin-right:42px;
+          font-size: 16px;
+          color:$secondary-color;
+        }
+      }
+
+
       &__logo {
         img {
           width: 150px;

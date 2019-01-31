@@ -70,8 +70,8 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width:1170px;
-$global-lineheight: 1.5;
+$global-width:1260px;
+$global-lineheight: 1.15;
 $foundation-palette: (
     primary: #0071bb,
     secondary: #949ba2,
@@ -871,7 +871,7 @@ $topbar-unstack-breakpoint: medium;
 // -----------
 
 $xy-grid: true;
-$grid-container: 1170px;
+$grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
     small: 20px,
