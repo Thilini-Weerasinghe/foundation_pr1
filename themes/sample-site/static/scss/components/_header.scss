@@ -1,76 +1,74 @@
 
 .header {
 
-
   font-size: 10px;
-  padding-top:10px;
+  padding-top: 10px;
   padding-bottom: 10px;
 
-  &__text{
-    text-align:right;
+  &__text {
+    text-align: right;
     margin-bottom: 15px;
 
-    a{
-      margin-right:10px;
+    a {
+      margin-right: 10px;
       font-size: 16px;
-      color:$secondary-color;
+      color: $secondary-color;
     }
   }
 
- .hollow{
-   margin-bottom: 15px;
-   margin-left:10px;
-   font-size: 16px;
-   color:$secondary-color;
- }
+  .hollow {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: $secondary-color;
+  }
 
-    &__button {
-      width: 90px;
+  &__button {
+    width: 90px;
+    max-width: 100%;
+    margin-bottom: 0;
+    border-radius: 5px;
+  }
+
+  &__logo {
+    text-align: center;
+    img {
+      width: 100px;
       max-width: 100%;
-      margin-bottom: 0;
-      border-radius: 5px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  //break points
+  @include breakpoint(medium) {
+    font-size: 15px;
+    &__button {
+      width: 130px;
+
+    }
+
+    .hollow {
+      margin-bottom: 15px;
+      margin-left: 20px;
+      font-size: 16px;
+      color: $secondary-color;
+    }
+    &__text {
+      text-align: right;
+      margin-bottom: 15px;
+
+      a {
+        margin-right: 42px;
+        font-size: 16px;
+        color: $secondary-color;
+      }
     }
 
     &__logo {
-      text-align:center;
       img {
-        width: 100px;
-        max-width: 100%;
-     padding-top:0;
-        padding-bottom:0;
-      }
-    }
-
-    //break points
-    @include breakpoint(medium) {
-      font-size: 15px;
-      &__button {
-        width: 130px;
-
-      }
-
-      .hollow{
-        margin-bottom: 15px;
-        margin-left:20px;
-        font-size: 16px;
-        color:$secondary-color;
-      }
-      &__text{
-        text-align:right;
-        margin-bottom: 15px;
-
-        a{
-          margin-right:42px;
-          font-size: 16px;
-          color:$secondary-color;
-        }
-      }
-
-
-      &__logo {
-        img {
-          width: 150px;
-        }
+        width: 150px;
       }
     }
   }
+}

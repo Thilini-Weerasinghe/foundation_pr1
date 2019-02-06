@@ -10,8 +10,6 @@
                     <h1>Welcome to Social Entertainment. </h1>
                     <p>TV. Movies. Music. Social Media</p>
                     <p class="p1">— All for free </p>
-
-                    <%--<br>--%>
                     <div class="hero__dropdown">
                         <select>
                             <option value="" selected disabled hidden>Find Out More</option>
@@ -56,24 +54,24 @@
         <div class="grid-x grid-margin-x ">
             <div class="columns small-12 medium-12 large-12">
                 <h2 class="h1">What is Soentso?</h2>
-<div class="medium-10 medium-offset-1 large-8 large-offset-2 text-center">
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas in ligula a luctus.
-        In ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit.
-    <ul class="vertical menu accordion-menu" data-accordion-menu>
-        <li>
-            <a href="#"> <u> More </u></a>
-            <ul class="menu vertical nested">
-                <li>ffhfufuyhkuigfyfu gugu hugj giu gi uh fghebvfje fbejfbej bjsc dwvjb
-                    vjnkjdhvkjvjbvjduvbjd
-                    bwijbvdhvwsj dbwubjdjsfgey feufgef cbufg cvyegf vwfuwcvdfuywv
-                </li>
-            </ul>
-        </li>
-    </ul>
-    </p>
-</div>
-
+                <div class="medium-10 medium-offset-1 large-8 large-offset-2 text-center">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas in ligula a
+                        luctus.
+                        In ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit.
+                    <ul class="vertical menu accordion-menu" data-accordion-menu>
+                        <li>
+                            <a href="#" class="about-block__link"> <u> More </u></a>
+                            <ul class="menu vertical nested">
+                                <li>ffhfufuyhkuigfyfu gugu hugj giu gi uh fghebvfje fbejfbej bjsc dwvjb
+                                    vjnkjdhvkjvjbvjduvbjd
+                                    bwijbvdhvwsj dbwubjdjsfgey feufgef cbufg cvyegf vwfuwcvdfuywv
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
             </div>
         </div>
     </div><!--end the about-bar-->
@@ -86,29 +84,29 @@
                 <img src="$resourceURL('themes/sample-site/static/images/cms/cmp.jpg') ">
                 <h4>Free TV & Movies</h4>
                 <div class="medium-10 medium-offset-1 large-8 large-offset-2">
-                    <p>Ads that don’t break  up your viewing.</p>
+                    <p>Ads that don’t break up your viewing.</p>
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-3 float-center">
                 <img src="$resourceURL('themes/sample-site/static/images/cms/cmp.jpg') ">
                 <h4>Free TV & Movies</h4>
                 <div class="medium-10 medium-offset-1 large-8 large-offset-2">
-                    <p>Ads that don’t break  up your viewing.</p>
+                    <p>Ads that don’t break up your viewing.</p>
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-3 float-center">
                 <img src="$resourceURL('themes/sample-site/static/images/cms/cmp.jpg') ">
                 <h4>Free TV & Movies</h4>
                 <div class="medium-10 medium-offset-1 large-8 large-offset-2">
-                    <p>Ads that don’t break  up your viewing.</p>
+                    <p>Ads that don’t break up your viewing.</p>
                 </div>
             </div>
             <div class="cell small-12 medium-6 large-3 float-center">
                 <img src="$resourceURL('themes/sample-site/static/images/cms/cmp.jpg') ">
                 <h4>Free TV & Movies</h4>
                 <div class="medium-10 medium-offset-1 large-8 large-offset-2">
-                <p>Ads that don’t break  up your viewing.</p>
-            </div>
+                    <p>Ads that don’t break up your viewing.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -119,14 +117,11 @@
         <div class="large-6 large-offset-3">
             <h2 class="h1">Get early access to free TV & Movies.</h2>
         </div>
-        <%--<div class="end-block__text">--%>
-
-            <div class="large-8 large-offset-2">
-                <p><b>Prize information here</b>: consectetur adipiscing elit. Pellentesque egestas in ligula a luctus.
-                    In ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit.</p>
-            </div>
-            <a href="#" class="button end-block__btn"><b>Sign me up</b></a>
-        <%--</div>--%>
+        <div class="large-8 large-offset-2">
+            <p><b>Prize information here</b>: consectetur adipiscing elit. Pellentesque egestas in ligula a luctus.
+                In ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit.</p>
+        </div>
+        <a href="#" class="button end-block__btn"><b>Sign me up</b></a>
     </div>
 </div> <!-- end the end-block-->
 

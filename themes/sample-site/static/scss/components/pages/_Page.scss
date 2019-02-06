@@ -6,10 +6,10 @@
   padding-bottom: 20px;
 
   .terms-link {
-    color:white;
+    color: white;
   }
 
-  .p1{
+  .p1 {
     font-size: 20px;
     text-align: center;
   }
@@ -17,7 +17,7 @@
   p {
     color: $white;
     font-size: 8px;
-    a{
+    a {
       font-size: 10px;
       color: $white;
     }
@@ -30,14 +30,12 @@
     align-items: right;
     font-size: 12px;
 
-
   }
   .text-box {
     background-color: transparent;
     width: 95%;
     text-align: center;
     font-size: 13px;
-
 
   }
 }
@@ -46,30 +44,39 @@
 .about-block {
   font-size: 12px;
   text-align: center;
-  padding-bottom:30px;
+  padding-bottom: 30px;
 
+  h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #47525d;
+  }
 
-  h2{
-    padding-top:30px;
-    padding-bottom:20px;
-    color:#47525d;
+  &__link {
+    color: #0071bb;
+    text-decoration: underline !important;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block !important;
+
+    &:after {
+      right: 0 !important;
+    }
   }
 }
-
 
 //computer-block
 .computer-block {
   font-size: 12px;
   text-align: center;
-  min-height:335px;
+  min-height: 335px;
   padding-bottom: 30px;
 
-  h4{
-    color:#47525d;
+  h4 {
+    color: #47525d;
   }
 
 }
-
 
 //end-block scss
 .end-block {
@@ -91,7 +98,6 @@
     padding-bottom: 10px;
     color: white;
 
-
   }
   p {
 
@@ -99,48 +105,43 @@
   }
 }
 
-
-///////////////////////////////////////
-
 //breakpoint
 @include breakpoint(medium) {
 
   //mid bar scss
   .mid-bar {
 
-
     align-items: center;
     padding-top: 30px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 
-    .p1{
-
+    .p1 {
 
       text-align: left;
     }
 
     p {
       font-size: 12px;
-     a{
-       font-size: 15px;
-     }
+      a {
+        font-size: 15px;
+      }
     }
 
     &__btn2 {
-      width:385px;
-      max-width:100%;
+      width: 385px;
+      max-width: 100%;
       font-size: 15px;
-      padding-top:15px;
-      padding-bottom:15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
 
     .text-box {
       text-align: left;
-      padding-top:25px;
-      padding-bottom:25px;
-      padding-left:20px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 20px;
       font-size: 14px;
-      width:90%;
+      width: 90%;
     }
   }
 
@@ -148,38 +149,35 @@
   .about-block {
     font-size: 15px;
 
-    p{
+    p {
       padding-left: 25px;
       padding-right: 25px;
     }
-    h2{
-      padding-top:35px;
-      padding-bottom:20px;
+    h2 {
+      padding-top: 35px;
+      padding-bottom: 20px;
     }
   }
 
-
- //computer-block
+  //computer-block
   .computer-block {
     font-size: 15px;
     text-align: center;
     //padding-bottom: 120px;
-img{
-  padding-top:20px;
-}
- h4{
-   padding-top:28px;
-   margin-bottom:7px;
- }
-    p{
+    img {
+      padding-top: 20px;
+    }
+    h4 {
+      padding-top: 28px;
+      margin-bottom: 7px;
+    }
+    p {
       line-height: 1.2;
-     // text-rendering: optimizeLegibility;
+      // text-rendering: optimizeLegibility;
       letter-spacing: -0.04em;
     }
 
-
   }
-
 
   //end-block scss
   .end-block {
@@ -195,7 +193,6 @@ img{
     h2 {
       padding-bottom: 20px;
 
-
     }
 
     p {
@@ -205,39 +202,38 @@ img{
   }
 }
 
-///////////////////////////////////////////////////////////
-@include breakpoint(large){
-.mid-bar{
+@include breakpoint(large) {
+  .mid-bar {
 
-  .p1{
+    .p1 {
 
-    font-size: 25px;
-  }
- .text-box{
+      font-size: 25px;
+    }
+    .text-box {
       font-size: 18px;
     }
 
-  &__btn2{
-    font-size:18px;
+    &__btn2 {
+      font-size: 18px;
+    }
   }
-}
   .about-block {
     font-size: 18px;
-    padding-bottom:45px;
+    padding-bottom: 45px;
 
-    h2{
+    h2 {
       padding-left: 0px;
-      padding-top:80px;
-      padding-bottom:8px;
+      padding-top: 80px;
+      padding-bottom: 8px;
     }
 
   }
 
-.computer-block{
-  font-size: 20px;
+  .computer-block {
+    font-size: 20px;
 
-  //padding-bottom: 95px;
-}
+    //padding-bottom: 95px;
+  }
   .end-block {
     padding-top: 55px;
     padding-bottom: 40px;
@@ -245,7 +241,7 @@ img{
 
     &__btn {
       width: 420px;
-      max-width:100%;
+      max-width: 100%;
       height: 50px;
       font-size: 18px;
       padding-top: 12px;
@@ -254,7 +250,6 @@ img{
 
     h2 {
       padding-bottom: 0;
-
 
     }
 

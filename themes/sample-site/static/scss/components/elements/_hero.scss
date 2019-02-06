@@ -1,6 +1,4 @@
-
 .hero {
-
   position: relative;
   min-height: 500px;
   overflow: hidden;
@@ -28,16 +26,17 @@
   }
 
   &__dropdown {
-    padding-top:10px;
-    background-color:transparent;
+    padding-top: 10px;
+    background-color: transparent;
     width: 50%;
     cursor: pointer;
-    font-size:15px;
-    color:white;
+    font-size: 15px;
+    color: white;
     border-radius: 5px;
 
-    select{
+    select {
       background-color: transparent;
+      color: $white;
     }
   }
 
@@ -58,27 +57,23 @@
 
     .p1 {
       text-transform: uppercase;
-      font-size:30px;
+      font-size: 30px;
     }
   }
 
-}
+  @include breakpoint(medium) {
 
-//////////////////////////////////////////
-
-//breakpoints
-@include breakpoint(medium) {
-
-  .hero {
     min-height: 670px;
 
-p{
-  font-size:30px;
-}
-    &__text{
-      padding-top:30px;
-      padding-right:10px;
+    p {
+      font-size: 30px;
     }
+
+    &__text {
+      padding-top: 30px;
+      padding-right: 10px;
+    }
+
     &__image {
       position: absolute;
       left: 0;
@@ -87,10 +82,10 @@ p{
       height: 100%;
       @include bg-image;
     }
-    &__dropdown{
-      width:40%;
-    }
 
+    &__dropdown {
+      width: 40%;
+    }
   }
 }
 
